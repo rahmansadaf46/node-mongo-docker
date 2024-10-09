@@ -1,0 +1,20 @@
+#Build the Docker containers:
+
+docker-compose build
+
+#Start the application:
+
+docker-compose up
+
+
+#post api
+http://localhost:3000/items
+
+body
+{
+    "name": "Apple",
+    "quantity": 10
+}
+
+#get api
+http://localhost:3000/items
